@@ -1,24 +1,24 @@
 :root {
-  --logo-web: #2196f3;
   --logo-studio: #000000;
-  --logo-studio-alt: #ffffff;
   --main-text: #757575;
   --title-color: #212121;
   --accent: #2196f3;
   --alt-title: #ffffff;
   --dark-bg: #2f303a;
-  --bg: #e5e5e5;
+  --bg: #ffffff;
   --alt-bg: #f5f4fa;
 
   --main-font: "Roboto", sans-serif;
   --title-logo-font: "Raleway", sans-serif;
 }
+
 body {
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text);
+  background-color: var(--bg);
 }
 
 .btn {
@@ -87,7 +87,7 @@ body {
 }
 
 .logo-web {
-  color: var(--logo-web);
+  color: var(--accent);
 }
 
 .logo-studio {
@@ -95,7 +95,7 @@ body {
 }
 
 .logo-studio-alt {
-  color: var(--logo-studio-alt);
+  color: var(--alt-title);
 }
 
 .page-title {
