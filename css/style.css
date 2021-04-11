@@ -51,6 +51,7 @@ body {
 
 .link-menu {
   color: var(--title-color);
+  letter-spacing: 0.03em;
 }
 
 .link-contact {
@@ -128,6 +129,11 @@ body {
 
 .team-item-title {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-item-descr {
   font-size: 16px;
   line-height: 1.19;
 }
